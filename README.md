@@ -1,10 +1,10 @@
-# 🛰️ Detección de Cambios en la Cobertura Terrestre de Pastizales
+# Detección de Cambios en la Cobertura Terrestre de Pastizales
 
 **Autor:** Daniela Rayo Álvarez  
 **Programa:** Doctorado en Ciencias Agrarias  
 **Facultad:** Facultad de Ciencias Agrarias  
 
-## 🌍 Introducción
+## Introducción
 
 Los pastizales áridos y semiáridos cubren aproximadamente el 41% de la superficie terrestre. Estos ecosistemas son fundamentales para el sustento de millones de personas y para la actividad ganadera global. Sin embargo, enfrentan presiones crecientes debido al cambio climático, la expansión agrícola, la urbanización y la gestión inadecuada.
 
@@ -61,16 +61,16 @@ Se agrupan los píxeles por similitud en la forma de sus series temporales de re
 - Gráficos explicativos  
 Todo implementado con `matplotlib`.
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías utilizadas
 
-- 🌐 Google Earth Engine
-- 🛰️ MODIS MOD13Q1 NDVI
-- 🌧️ CHIRPS precipitation data
-- 🧠 LandTrendr (segmentación temporal)
-- 📊 K-means clustering
-- 🐍 Python: `pandas`, `numpy`, `matplotlib`
+- Google Earth Engine
+- MODIS MOD13Q1 NDVI
+- CHIRPS precipitation data
+- LandTrendr (segmentación temporal)
+- K-means clustering
+- Python
 
-## 📚 Referencia Bibliográfica
+## Referencia
 
 Este proyecto se basa en una adaptación del capítulo:
 
