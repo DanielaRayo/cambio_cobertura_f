@@ -59,7 +59,6 @@ Se agrupan los píxeles por similitud en la forma de sus series temporales de re
 - Mapas anuales
 - Mapas de clustering
 - Gráficos explicativos  
-Todo implementado con `matplotlib`.
 
 ##  Tecnologías utilizadas
 
