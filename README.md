@@ -1,4 +1,4 @@
-# Detección de Cambios en la Cobertura Terrestre de Pastizales
+# Detección de Cambios en la Cobertura Terrestre Mediante Sensores Remotos
 
 **Autor:** Daniela Rayo Álvarez  
 **Programa:** Doctorado en Ciencias Agrarias  
