@@ -12,7 +12,7 @@ Las bases de datos satelitales tradicionales (como MODIS, GlobCover o WorldCover
 
 ## Objetivo
 
-Detectar y analizar cambios en la cobertura vegetal de pastizales usando Google Earth Engine y técnicas de aprendizaje no supervisado, con énfasis en la segmentación temporal y el análisis de residuos.
+Analizar cambios en la cobertura vegetal de pastizales usando Google Earth Engine y técnicas de aprendizaje no supervisado, con énfasis en la segmentación temporal y el análisis de residuos.
 
 ## Estructura 
 
