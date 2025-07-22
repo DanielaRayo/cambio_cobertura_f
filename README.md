@@ -39,7 +39,7 @@ slides/                      # Presentación del proyecto (diapositivas)
 ##  ¿Cómo se ejecuta?
 
 ### 1. Autenticación en Earth Engine
-Desde `notebooks/auth/gee_auth.py` o cualquier celda:
+Desde `notebooks/auth/gee_auth.py.
 
 ### 2. Definir el Área de Estudio (AOI)
 Se carga desde un *asset* de Earth Engine en `data/parametros`.
