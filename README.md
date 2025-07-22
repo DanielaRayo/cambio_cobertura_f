@@ -14,12 +14,12 @@ Las bases de datos satelitales tradicionales (como MODIS, GlobCover o WorldCover
 
 Detectar y analizar cambios en la cobertura vegetal de pastizales usando Google Earth Engine y técnicas de aprendizaje no supervisado, con énfasis en la segmentación temporal y el análisis de residuos.
 
-## Estructura del Proyecto
+## Estructura 
 
 ```cc
 notebooks/
 │
-├── analysis/                 # Gráficos y análisis visual
+├── analysis/                # Gráficos y análisis visual
 ├── auth/                    # Autenticación con Google Earth Engine
 ├── data/                    # Parámetros, selección de AOI y variables
 ├── utils/                   # Funciones auxiliares
@@ -42,7 +42,7 @@ slides/                      # Presentación del proyecto (diapositivas)
 Desde `notebooks/auth/gee_auth.py` o cualquier celda:
 
 ### 2. Definir el Área de Estudio (AOI)
-Se carga desde un *asset* de Earth Engine en `data/select_muni`.
+Se carga desde un *asset* de Earth Engine en `data/parametros`.
 
 ### 3. Preprocesamiento
 - Se calcula el **NDVI máximo anual** y la **precipitación acumulada anual**.
@@ -72,8 +72,10 @@ Todo implementado con `matplotlib`.
 
 ## Referencia
 
-Este proyecto se basa en una adaptación del capítulo:
+Este proyecto se inspira en el capítulo **A3.8: Detecting Land Cover Change in Rangelands**, el cual forma parte del libro:
 
-> Palmer, A. R., & Fortescue, A. (2004). *Remote sensing and change detection in rangelands*.  
-> _African Journal of Range and Forage Science, 21(2), 123–128._  
-> [DOI:10.2989/10220110409485846](https://doi.org/10.2989/10220110409485846)
+> Cardille, J. A., Crowley, M. A., Saah, D., & Clinton, N. E. (Eds.). (2023).  
+> *Cloud-based Remote Sensing with Google Earth Engine: Fundamentals and Applications*.  
+> Springer Nature.
+
+El capítulo aborda el uso de Earth Engine para detectar cambios sutiles en la cobertura de los pastizales mediante análisis de series temporales, lo cual sirve como base conceptual y técnica para el presente trabajo.
